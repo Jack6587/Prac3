@@ -4,6 +4,6 @@
 Pie::Pie() {
 }
 
-std::string Pie::definition() {
+std::string Pie::description() {
 	return std::string();
 }
