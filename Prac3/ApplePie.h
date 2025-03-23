@@ -5,5 +5,5 @@ class ApplePie : public Pie {
 public:
 	ApplePie();
 
-	std::string description();
+	std::string description() override;
 };

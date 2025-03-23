@@ -5,5 +5,5 @@ class ApricotPie : public Pie {
 public:
 	ApricotPie();
 
-	std::string description();
+	std::string description() override;
 };

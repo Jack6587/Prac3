@@ -6,5 +6,5 @@ RaspberryPie::RaspberryPie()
 
 std::string RaspberryPie::description()
 {
-	return std::string("Raspberry Pie");
+	return "Raspberry Pie";
 }

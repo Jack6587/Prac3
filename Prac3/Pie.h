@@ -4,7 +4,8 @@
 class Pie {
 public:
 	Pie();
+	virtual ~Pie() {}
 	
-	virtual std::string description() { return std::string(); };
+	virtual std::string description() = 0;
 };
 

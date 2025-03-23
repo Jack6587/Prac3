@@ -5,5 +5,5 @@ class RaspberryPie : public Pie {
 public:
 	RaspberryPie();
 
-	std::string description();
+	std::string description() override;
 };
